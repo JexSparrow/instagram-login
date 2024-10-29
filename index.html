@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Instagram - Login</title>
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div class="imagens">
+            <img class="celular-fixo" src="./assets/celular.png" alt="celular fixo">
+            <img class="imagem-loop-1" src="./assets/insta1.png" alt="imagem loop1">
+            <img class="imagem-loop-2" src="./assets/insta2.png" alt="imagem loop2">
+        </div>
+
+        <div class="section-direita">
+
+        
+
+        <div class="conteiner-direita">
+            <img class="instagram-logo" src="./assets/insta-logo.png" alt="instagram logo">
+            <input placeholder="Telefone, nome de usuário ou email">
+            <input placeholder="Senha" type="password">
+            <button>Entrar</button>
+
+            <div class="ou">
+                <p class="paragrafo-ou"><span> OU </span></p>
+
+            </div>
+
+            <div class="icone-e-entrar-facebook">
+                <a>
+                    <img class="facebook-icone" src="assets/facebook.png">
+                </a>
+
+                <a class="link-rodape">Entrar com Facebook</a>
+            </div>
+
+
+            <a class="link-rodape senha">Esqueceu a senha ?</a>
+        </div>
+
+        <div class="rodape-nao-tem-conta">
+            <p>Não tem uma conta? <a class="cadastre-se">Cadastre-se</a></p>
+        </div>
+
+        <p class="obtenha">Obtenha o aplicativo.</p>
+
+        <div class="imagens-download ">
+            <img src="./assets/icons8-mac-os.svg"><img src="./assets/icons8-google-play.svg">
+
+        </div>
+
+    </div>
+
+        
+
+    </div>
+
+</body>
+
+<script>
+    let imagem = document.querySelector(".imagem-loop-2")
+
+    setInterval(() => {
+
+        if (imagem.style.opacity == 1) {
+            imagem.style.opacity = 0
+        } else {
+            imagem.style.opacity = 1
+        }
+
+
+    }, 2000)
+
+
+</script>
+
+</html>
