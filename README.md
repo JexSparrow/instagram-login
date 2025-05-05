@@ -12,7 +12,7 @@
 
 <b>Página responsiva para dispositivos móveis!</b>
 
-Confira: [()](https://login-jex.netlify.app/)
+Confira: (https://login-jex.netlify.app/)
 
 <h2>Layout para Desktop</h2>
 
@@ -21,4 +21,5 @@ Confira: [()](https://login-jex.netlify.app/)
 <h2>Layuot para Mobile</h2>
 
 ![Captura de tela 2025-05-05 135804](https://github.com/user-attachments/assets/a5c86a38-cc31-4bb2-b960-c86c10580cd7)
-![Captura de tela 2025-05-05 135832](https://github.com/user-attachments/assets/09b2f6a0-4e2e-45e4-9974-ce0350ae2ec5)
+![Captura de tela 2025-05-05 140002](https://github.com/user-attachments/assets/956e401e-33fa-4f5e-888b-818233179c33)
+
